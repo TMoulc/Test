@@ -7,7 +7,7 @@ dataset = pd.read_csv("Restaurant_Reviews.csv", sep="\t", quoting=3)
 # choisir la colonne qui contient les avis
 reviews = dataset['Review'].values               
 
-# importer le module nltk (installé avant!)
+# importer le module nltk (installé avant)
 import nltk
 # télécharger les listes de mots les plus fréquents
 #nltk.download('stopwords')
